@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useEffect, useState } from 'react';
-import { Stack, IStackTokens } from 'office-ui-fabric-react/lib/Stack';
+import { Stack, IStackTokens } from '@fluentui/react';
 import { WebPartTitle } from '@pnp/spfx-controls-react';
 import {
   Dropdown,
