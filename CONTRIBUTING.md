@@ -78,6 +78,8 @@ Remember that those using your samples may be new to SPFx, and they may not quit
 * Update the image `src` attribute according with the repository name and folder information. For example, if your sample is named `react-todo` in the `samples` folder, you should update the `src` attribute to `https://m365-visitor-stats.azurewebsites.net/sp-dev-fx-webparts/samples/react-todo`
   * Update the image `src` attribute according with the repository name and folder information.
 
+> **⚠️ IMPORTANT:** The automated validation bot checks for an `<img>` HTML element in your README. Using Markdown image syntax like `![Visitor count](...)` will trigger a validation **warning** and may delay your PR. Always use the `<img>` tag format shown in the template above.
+
 #### Contributors
 
 * Make sure to list yourself as a contributor by adding a bullet to the **Contributors** list.
